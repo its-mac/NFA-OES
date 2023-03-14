@@ -1,0 +1,33 @@
+body {
+    background: #c09696;
+}
+
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.btns {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.login,
+.register {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    background: #ffffff;
+    transition: all 0.3s linear;
+}
+
+.register {
+    background: #363535;
+    transform: translateY(-100px);
+    width: 300px;
+    z-index: -1;
+    color: white;
+}
